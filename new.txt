@@ -1,0 +1,26 @@
+
+	while(low<=high)
+	{
+		if(a[mid]==value)
+		{
+			printf("value found.\n");
+			//printf("%d",a[mid]);
+			break;
+		}
+		else if(a[mid]>value)
+		{
+			high=mid-1;
+			mid=(low+high)/2;
+		}
+		else
+		{
+			low=mid+1;
+			mid=(low+high)/2;
+		}
+	}
+	if(low>high)
+	{
+		printf("Value not found.\n");
+	}
+	getch();
+}
