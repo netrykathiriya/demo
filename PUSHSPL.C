@@ -104,7 +104,7 @@ void display()
 void main()
 {
 	clrscr();
-	pushspl();
+	pushspl(10);
 	display();
 	getch();
 }
