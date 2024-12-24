@@ -35,9 +35,8 @@ void display()
 void main()
 {
 	clrscr();
-	pushbeg(10);
-	pushbeg(20);
-	pushbeg(30);
+	popend(10);
+	popend(20);
 	display();
 	getch();
 }
