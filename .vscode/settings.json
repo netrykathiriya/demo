@@ -1,5 +1,14 @@
 {
     "files.associations": {
-        "POPEND.C": "cpp"
+        "POPEND.C": "cpp",
+        "Q_8.C": "cpp",
+        "ADD.C": "cpp",
+        "PUSHSPL.C": "cpp",
+        "POPSPL.C": "cpp",
+        "POPBEG.C": "cpp",
+        "CHOICESP.C": "cpp",
+        "POINT.C": "cpp",
+        "SEARCH.C": "cpp",
+        "Q_10.C": "cpp"
     }
 }
